@@ -29,4 +29,8 @@ public class Humain implements Consommation {
 		System.out.println("je bois");
 	}
 	
+	public void ami(Humain autre) {
+	    System.out.println(this.nom + " est ami avec " + autre.nom);
+	}
+	
 }
