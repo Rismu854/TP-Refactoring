@@ -10,4 +10,8 @@ public class Humain {
 		this.prenom = prenom;
 		this.age = age;
 	}
+	
+	public void details() {
+		System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
+	}
 }
