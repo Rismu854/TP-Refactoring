@@ -20,4 +20,12 @@ public class Humain {
 		System.out.println(this.toString());
 	}
 	
+	public void manger() {
+		System.out.println("je mange");
+	}
+	
+	public void boire() {
+		System.out.println("je bois");
+	}
+	
 }
